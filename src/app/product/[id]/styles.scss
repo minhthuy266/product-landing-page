@@ -1,8 +1,6 @@
 .product-detail {
   margin-left: 300px;
 
-  
-
   .product-detail-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,8 +37,6 @@
     }
 
     .product-item-info {
-      margin-left: 4rem;
-
       .product-item-title {
         font-size: 3.6rem;
         font-weight: 600;
