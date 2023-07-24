@@ -8,26 +8,26 @@ const MainProduct = () => {
   const products = [
     {
       id: 1,
-      name: "Tôi",
-      price: 100000,
+      name: "Hành tỏi Tân Yên",
+      price: 60000,
       image: P1,
       description: "Tôi là tôi",
     },
 
     {
       id: 2,
-      name: "Nụ hoa",
-      price: 200000,
+      name: "Nụ hoa Sâm Nam Núi Dành",
+      price: 1200000,
       image: P2,
-      description: "Nụ hoa là nụ hoa",
+      description: "Nụ hoa Sâm Nam Núi Dành",
     },
 
     {
       id: 3,
-      name: "Tượng",
-      price: 300000,
+      name: "Tương Liên Chung",
+      price: 20000,
       image: P3,
-      description: "Tượng là tượng",
+      description: "Tương Liên Chung",
     },
   ]
 

@@ -5,9 +5,9 @@ import React from "react"
 const ProductCard = ({image, price, name, id}) => {
   return (
     <div>
-      <Image src={image} alt='img' width='auto' height='auto' />
-
       <Link href={`/product/${id}`}>
+        <Image src={image} alt='img' width='auto' height='auto' />
+
         <div className='product-desc'>
           <h3>{name}</h3>
           <p>

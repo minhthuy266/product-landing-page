@@ -135,6 +135,10 @@ ul,
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 blockquote,
 q {
   quotes: none;
@@ -170,4 +174,5 @@ strong {
 .root-container {
   font-size: 1.6rem !important;
   margin-left: 300px;
+  padding-bottom: 16rem;
 }

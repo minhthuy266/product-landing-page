@@ -1,17 +1,18 @@
 .product-section {
   padding: 0 0 4rem 0;
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 
   &__title {
-    padding: 2rem 0;
+    padding: 4rem 0;
     text-align: center;
+    font-size: 4rem;
   }
 
   &__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 4rem;
   }
 
   img {
@@ -22,7 +23,12 @@
 
   .product-desc {
     h3 {
-      padding: 1rem 0;
+      padding: 2rem 0;
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 2rem;
     }
   }
 }

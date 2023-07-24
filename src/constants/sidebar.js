@@ -5,10 +5,10 @@ export const sidebarItems = [
   },
   {
     label: "SẢN PHẨM",
-    key: "/product",
+    key: "#",
   },
   {
     label: "GIỚI THIỆU",
-    key: "/intro",
+    key: "#",
   },
 ]
