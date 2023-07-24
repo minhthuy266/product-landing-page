@@ -9,7 +9,7 @@ code {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5% !important;
   font-family: "Noto Sans Display", sans-serif !important;
   overflow-x: hidden;
   background: var(--background-color);
@@ -164,5 +164,10 @@ strong {
 }
 
 .body {
+  margin-left: 300px;
+}
+
+.root-container {
+  font-size: 1.6rem !important;
   margin-left: 300px;
 }

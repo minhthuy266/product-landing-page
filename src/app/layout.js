@@ -1,7 +1,9 @@
-"use client"
 import "./globals.css"
 import {Inter} from "next/font/google"
 import {Layout} from "antd"
+import Sidebar from "@/components/Sidebar/Sidebar"
+import "@/assets/font-awesome/css/all.min.css"
+import Navbar from "@/components/Navbar/Navbar"
 
 const inter = Inter({subsets: ["latin"]})
 
@@ -11,19 +13,14 @@ export const metadata = {
 }
 
 export default function RootLayout({children}) {
-  const {Header, Footer, Sider, Content} = Layout
-
-  const siderStyle = {
-    textAlign: "center",
-    lineHeight: "100vh",
-    color: "#fff",
-    backgroundColor: "#efecea",
-  }
-
   return (
     <html lang='en'>
-      {/* <Sider style={siderStyle}>Sider</Sider> */}
-      <body className='body'>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        <Sidebar />
+
+        {children}
+      </body>
     </html>
   )
 }

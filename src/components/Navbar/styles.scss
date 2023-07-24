@@ -1,0 +1,27 @@
+.navbar {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background: #fff;
+
+    @media screen and (max-width: 992px) {
+        display: flex;
+      }
+
+    .navbar-right {
+        .menu-btn {
+            color: rgb(149, 148, 148);
+            border: none;
+            font-size: 20px;
+            background: unset;
+            box-shadow: unset;
+            padding: 1rem 1.2rem;
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(119, 118, 118);
+            }
+        }
+    }
+}
