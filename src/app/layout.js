@@ -1,7 +1,9 @@
-"use client"
 import "./globals.css"
 import {Inter} from "next/font/google"
 import {Layout} from "antd"
+import Sidebar from '@/components/Sidebar/Sidebar';
+import "@/assets/font-awesome/css/all.min.css";
+import Navbar from "@/components/Navbar/Navbar";
 
 const inter = Inter({subsets: ["latin"]})
 
@@ -22,10 +24,13 @@ export default function RootLayout({children}) {
 
   return (
     <html lang='en'>
+      <body className={inter.className}>
       <Layout>
-        <Sider style={siderStyle}>Sider</Sider>
+        <Navbar />
+        <Sidebar />
       </Layout>
-      <body className={inter.className}>{children}</body>
+        {children}
+      </body>
     </html>
   )
 }
