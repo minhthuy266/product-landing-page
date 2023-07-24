@@ -4,6 +4,7 @@ import {Layout} from "antd"
 import Sidebar from '@/components/Sidebar/Sidebar';
 import "@/assets/font-awesome/css/all.min.css";
 import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({subsets: ["latin"]})
 
@@ -13,7 +14,7 @@ export const metadata = {
 }
 
 export default function RootLayout({children}) {
-  const {Header, Footer, Sider, Content} = Layout
+  const {Header, Sider, Content} = Layout
 
   const siderStyle = {
     textAlign: "center",
@@ -30,6 +31,7 @@ export default function RootLayout({children}) {
         <Sidebar />
       </Layout>
         {children}
+      <Footer />
       </body>
     </html>
   )
