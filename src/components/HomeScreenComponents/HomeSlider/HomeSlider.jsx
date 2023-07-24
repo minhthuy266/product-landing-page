@@ -7,14 +7,20 @@ import Image from "next/image"
 import P1 from "@/assets/images/Product_Toi.jpg"
 import P2 from "@/assets/images/Product_NuHoa.jpg"
 import P3 from "@/assets/images/Product_Tuong.jpg"
-import {Navigation, Pagination, Mousewheel, Keyboard} from "swiper/modules"
+import {
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard,
+  Autoplay,
+} from "swiper/modules"
 
 const HomeSlider = () => {
   return (
     <div className='home-slider'>
       <Swiper
         pagination={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className='mySwiper'
         slidesPerView={1}
         autoplay={true}

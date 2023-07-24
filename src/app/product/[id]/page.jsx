@@ -1,21 +1,21 @@
-"use client";
+"use client"
 
-import Image from "next/image";
-import producToi from "@/assets/images/Product_Toi.jpg";
-import producToi2 from "@/assets/images/Product_Toi-2.jpg";
-import productNuHoa from "@/assets/images/Product_NuHoa.jpg";
-import productNuHoa2 from "@/assets/images/Product_NuHoa-2.jpg";
-import productNuHoa3 from "@/assets/images/Product_NuHoa-3.jpg";
-import productNuHoa4 from "@/assets/images/Product_NuHoa-4.jpg";
-import productTuong from "@/assets/images/Product_Tuong.jpg";
-import productTuong2 from "@/assets/images/Product_Tuong-2.jpg";
-import productTuong3 from "@/assets/images/Product_Tuong-3.jpg";
-import productTuong4 from "@/assets/images/Product_Tuong-4.jpg";
-import "./styles.scss";
-import { useEffect, useState } from "react";
+import Image from "next/image"
+import producToi from "@/assets/images/Product_Toi.jpg"
+import producToi2 from "@/assets/images/Product_Toi-2.jpg"
+import productNuHoa from "@/assets/images/Product_NuHoa.jpg"
+import productNuHoa2 from "@/assets/images/Product_NuHoa-2.jpg"
+import productNuHoa3 from "@/assets/images/Product_NuHoa-3.jpg"
+import productNuHoa4 from "@/assets/images/Product_NuHoa-4.jpg"
+import productTuong from "@/assets/images/Product_Tuong.jpg"
+import productTuong2 from "@/assets/images/Product_Tuong-2.jpg"
+import productTuong3 from "@/assets/images/Product_Tuong-3.jpg"
+import productTuong4 from "@/assets/images/Product_Tuong-4.jpg"
+import "./styles.scss"
+import {useEffect, useState} from "react"
 
-const ProductDetail = ({ params }) => {
-  const [selectImg, setSelectImg] = useState("");
+const ProductDetail = ({params}) => {
+  const [selectImg, setSelectImg] = useState("")
 
   const products = [
     {
@@ -27,7 +27,7 @@ const ProductDetail = ({ params }) => {
           <span>
             Tại x&atilde; Li&ecirc;n Chung &ndash; nơi c&oacute; truyền
             thống&nbsp;
-            <a href="http://www.tintucnongnghiep.com/">trồng h&agrave;nh tỏi</a>
+            <a href='http://www.tintucnongnghiep.com/'>trồng h&agrave;nh tỏi</a>
             &nbsp;từ h&agrave;ng trăm năm qua, vụ đ&ocirc;ng n&agrave;y
             b&agrave; con n&ocirc;ng d&acirc;n trồng 64 ha h&agrave;nh tỏi, tăng
             12 ha so với năm 2012 (h&agrave;nh l&agrave; ch&iacute;nh, tỏi trồng
@@ -45,7 +45,7 @@ const ProductDetail = ({ params }) => {
             <span>
               Tại x&atilde; Li&ecirc;n Chung &ndash; nơi c&oacute; truyền
               thống&nbsp;
-              <a href="http://www.tintucnongnghiep.com/">
+              <a href='http://www.tintucnongnghiep.com/'>
                 trồng h&agrave;nh tỏi
               </a>
               &nbsp;từ h&agrave;ng trăm năm qua, vụ đ&ocirc;ng n&agrave;y
@@ -104,7 +104,7 @@ const ProductDetail = ({ params }) => {
       price: "1.200.000đ",
       shortDesc: (
         <>
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Hai c&acirc;u n&oacute;i về điển t&iacute;ch về một loại thần dược
               chữa khỏi bệnh l&ograve;a mắt cho mẹ Vua Tự Đức triều Nguyễn
@@ -119,7 +119,7 @@ const ProductDetail = ({ params }) => {
             </span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Nụ hoa s&acirc;m nam n&uacute;i D&agrave;nh chỉ được khai
               th&aacute;c từ những c&acirc;y s&acirc;m nam c&oacute; độ tuổi từ
@@ -133,11 +133,11 @@ const ProductDetail = ({ params }) => {
       ),
       description: (
         <>
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>NỤ HOA S&Acirc;M NAM N&Uacute;I D&Agrave;NH</span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               &ldquo;Qu&agrave; tặng v&ocirc; gi&aacute; từ đất
               thi&ecirc;ng&rdquo;
@@ -145,7 +145,7 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               N&oacute;i đến S&acirc;m nam N&uacute;i D&agrave;nh l&agrave;
               n&oacute;i về một sản vật độc nhất v&ocirc; nhị của quần thể
@@ -156,17 +156,17 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>&ldquo;S&acirc;m Nam nổi tiếng n&uacute;i D&agrave;nh</span>
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>Chữa lo&agrave; cho mắt lại l&agrave;nh như xưa&rdquo;</span>
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Hai c&acirc;u n&oacute;i về điển t&iacute;ch về một loại thần dược
               chữa khỏi bệnh l&ograve;a mắt cho mẹ Vua Tự Đức triều Nguyễn
@@ -182,7 +182,7 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Nụ hoa s&acirc;m nam n&uacute;i D&agrave;nh chỉ được khai
               th&aacute;c từ những c&acirc;y s&acirc;m nam c&oacute; độ tuổi từ
@@ -194,7 +194,7 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Đứng trước nhu cầu thị trường v&agrave; cơ hội ph&aacute;t triển
               của một sản phẩm nhiều triển vọng n&agrave;y HTX SX v&agrave; TT
@@ -208,7 +208,7 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               &ldquo;Nụ hoa s&acirc;m nam n&uacute;i D&agrave;nh&rdquo; được chế
               biến từ những nụ hoa s&acirc;m nam khu vực n&uacute;i D&agrave;nh
@@ -230,7 +230,7 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Mỗi khi nh&acirc;m nhi 1 ngụm tr&agrave; &ldquo;Nụ hoa s&acirc;m
               nam n&uacute;i D&agrave;nh&rdquo; thực kh&aacute;ch sẽ cảm nhận
@@ -249,16 +249,17 @@ const ProductDetail = ({ params }) => {
           </p>
           <br />
 
-          <iframe
-            loading="lazy"
-            title="Sâm Núi Dành: Báu Vật Của Vùng Đất Bắc Giang | SKĐS"
-            src="https://www.youtube.com/embed/F16EpNbCTp0?feature=oembed"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen=""
-            width="1020"
-            height="574"
-            frameBorder="0"
-          ></iframe>
+          <div style={{textAlign: "center"}}>
+            <iframe
+              loading='lazy'
+              title='Sâm Núi Dành: Báu Vật Của Vùng Đất Bắc Giang | SKĐS'
+              src='https://www.youtube.com/embed/F16EpNbCTp0?feature=oembed'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowFullScreen=''
+              width='1020'
+              height='574'
+              frameBorder='0'></iframe>
+          </div>
         </>
       ),
       images: [
@@ -286,7 +287,7 @@ const ProductDetail = ({ params }) => {
       detail: "Tương Liên Chung",
       price: "20.000đ",
       shortDesc: (
-        <p dir="ltr">
+        <p dir='ltr'>
           <span>
             X&atilde; Li&ecirc;n Chung, huyện T&acirc;n Y&ecirc;n l&agrave; một
             v&ugrave;ng qu&ecirc; thanh b&igrave;nh được che chở bởi d&atilde;y
@@ -303,15 +304,15 @@ const ProductDetail = ({ params }) => {
       ),
       description: (
         <>
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>TƯƠNG LI&Ecirc;N CHUNG</span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>&ldquo; Vị ngọt qu&ecirc; hương&rdquo;</span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               X&atilde; Li&ecirc;n Chung, huyện T&acirc;n Y&ecirc;n l&agrave;
               một v&ugrave;ng qu&ecirc; thanh b&igrave;nh được che chở bởi
@@ -326,7 +327,7 @@ const ProductDetail = ({ params }) => {
             </span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               &ldquo;Tương Li&ecirc;n Chung&rdquo; l&agrave; một m&oacute;n nước
               chấm truyền thống gắn liền với đặc trưng v&ugrave;ng miền
@@ -347,7 +348,7 @@ const ProductDetail = ({ params }) => {
             </span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Những chum Tương đậm chất địa phương được l&agrave;m với nguyện
               liệu ch&iacute;nh l&agrave; gạo nếp c&aacute;i hoa v&agrave;ng,
@@ -364,7 +365,7 @@ const ProductDetail = ({ params }) => {
             </span>
           </p>
           <br />
-          <p dir="ltr">
+          <p dir='ltr'>
             <span>
               Nhằm g&igrave;n giữ n&eacute;t văn h&oacute;a ẩm thực qu&ecirc;
               hương, bảo tồn l&agrave;ng nghề truyền thống qu&ecirc; hương năm
@@ -398,58 +399,73 @@ const ProductDetail = ({ params }) => {
         },
       ],
     },
-  ];
+  ]
 
   useEffect(() => {
     products.map((product) => {
       if (product.id == params.id) {
-        setSelectImg(product.images[0]);
+        setSelectImg(product.images[0])
       }
-    });
-  }, []);
+    })
+  }, [])
 
   const handleSelectImg = (item) => {
-    setSelectImg(item);
-  };
+    setSelectImg(item)
+  }
 
   return (
-    <div className="product-detail">
+    <div className='product-detail'>
       {products.map((product) => {
         return (
-          <div className="" key={product.id}>
+          <div className='' key={product.id}>
             {product.id == params.id && (
               <>
-                <div className="product-detail-item">
-                  <div className="product-item-img">
+                <div className='product-detail-item'>
+                  <div className='product-item-img'>
                     {selectImg && (
-                      <Image src={selectImg.img} alt="img" className="main-img" />
+                      <Image
+                        src={selectImg.img}
+                        alt='img'
+                        className='main-img'
+                      />
                     )}
-                    <div className="list-img" style={{
-                      gridTemplateColumns: `repeat(${product.images.length}, 1fr)`
-                    }}>
-                      {selectImg && product.images.map((item, index) => {
-                        return (
-                          <div key={index} onClick={() => handleSelectImg(item)}>
-                            <Image className={(item.id == selectImg?.id) ? "active-img" : ""} src={item.img} alt="img" />
-                          </div>
-                        );
-                      })}
+                    <div
+                      className='list-img'
+                      style={{
+                        gridTemplateColumns: `repeat(${product.images.length}, 1fr)`,
+                      }}>
+                      {selectImg &&
+                        product.images.map((item, index) => {
+                          return (
+                            <div
+                              key={index}
+                              onClick={() => handleSelectImg(item)}>
+                              <Image
+                                className={
+                                  item.id == selectImg?.id ? "active-img" : ""
+                                }
+                                src={item.img}
+                                alt='img'
+                              />
+                            </div>
+                          )
+                        })}
                     </div>
                   </div>
-                  <div className="product-item-info">
-                    <h1 className="product-item-title">{product.detail}</h1>
-                    <div className="product-item-desc">{product.shortDesc}</div>
-                    <h1 className="product-item-price">Giá: {product.price}</h1>
+                  <div className='product-item-info'>
+                    <h1 className='product-item-title'>{product.detail}</h1>
+                    <div className='product-item-desc'>{product.shortDesc}</div>
+                    <h1 className='product-item-price'>Giá: {product.price}</h1>
                   </div>
                 </div>
-                <div className="product-description">{product.description}</div>
+                <div className='product-description'>{product.description}</div>
               </>
             )}
           </div>
-        );
+        )
       })}
     </div>
-  );
-};
+  )
+}
 
-export default ProductDetail;
+export default ProductDetail
