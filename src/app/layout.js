@@ -22,10 +22,8 @@ export default function RootLayout({children}) {
 
   return (
     <html lang='en'>
-      <Layout>
-        <Sider style={siderStyle}>Sider</Sider>
-      </Layout>
-      <body className={inter.className}>{children}</body>
+      {/* <Sider style={siderStyle}>Sider</Sider> */}
+      <body className='body'>{children}</body>
     </html>
   )
 }
