@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image"
 import "./styles.scss"
 import LogoImg from "@/assets/images/logo.jpg"
@@ -26,7 +25,7 @@ const Footer = () => {
               <span className='footer-info__item-icon'>
                 <i className='fa-solid fa-envelope'></i>
               </span>
-              <span>Email: htxsamnamnuidanhlc@gmail.com </span>
+              <span>Email: Quy0984014746@gmail.com </span>
             </div>
 
             <div className='footer-info__item'>
