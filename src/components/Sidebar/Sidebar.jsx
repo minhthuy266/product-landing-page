@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import {useEffect, useState} from "react"
-import LogoImg from "@/assets/images/logo.jpg"
+import LogoImg from "public/assets/images/logo.jpg"
 import "./styles.scss"
 import {sidebarItems} from "@/constants/sidebar"
 import Link from "next/link"

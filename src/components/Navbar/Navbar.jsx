@@ -1,7 +1,7 @@
 "use client"
 
 import Image from 'next/image'
-import LogoImage from '@/assets/images/logo.png';
+import LogoImage from 'public/assets/images/logo.png';
 import './styles.scss';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { useState } from 'react';

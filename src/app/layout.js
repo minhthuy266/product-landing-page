@@ -1,4 +1,4 @@
-import '@/assets/font-awesome/css/all.min.css'
+import 'public/assets/font-awesome/css/all.min.css'
 import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
 import Sidebar from '@/components/Sidebar/Sidebar'

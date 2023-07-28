@@ -4,9 +4,9 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import Image from "next/image"
-import P1 from "@/assets/images/Product_Toi.jpg"
-import P2 from "@/assets/images/Product_NuHoa.jpg"
-import P3 from "@/assets/images/Product_Tuong.jpg"
+import P1 from "public/assets/images/Product_Toi.jpg"
+import P2 from "public/assets/images/Product_NuHoa.jpg"
+import P3 from "public/assets/images/Product_Tuong.jpg"
 import {
   Navigation,
   Pagination,

@@ -1,17 +1,16 @@
 import ProductCard from "./ProductCard"
 import "./styles.scss"
-import P1 from "@/assets/images/Product_Toi.jpg"
-import P2 from "@/assets/images/Product_NuHoa.jpg"
-import P3 from "@/assets/images/Product_Tuong.jpg"
+import P1 from "public/assets/images/Product_Toi.jpg"
+import P2 from "public/assets/images/Product_NuHoa.jpg"
+import P3 from "public/assets/images/Product_Tuong.jpg"
 
 const MainProduct = () => {
   const products = [
     {
       id: 1,
-      name: "Hành tỏi Tân Yên",
+      name: "Hành tỏi Liên Chung",
       price: 60000,
       image: P1,
-      description: "Tôi là tôi",
     },
 
     {
@@ -19,7 +18,6 @@ const MainProduct = () => {
       name: "Nụ hoa Sâm Nam Núi Dành",
       price: 1200000,
       image: P2,
-      description: "Nụ hoa Sâm Nam Núi Dành",
     },
 
     {
@@ -27,7 +25,6 @@ const MainProduct = () => {
       name: "Tương Liên Chung",
       price: 20000,
       image: P3,
-      description: "Tương Liên Chung",
     },
   ]
 

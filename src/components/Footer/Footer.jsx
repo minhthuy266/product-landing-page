@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import "./styles.scss"
-import LogoImg from "@/assets/images/logo.jpg"
+import LogoImg from "public/assets/images/logo.png"
 import Link from "next/link"
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
               <span className='footer-info__item-icon'>
                 <i className='fa-solid fa-phone'></i>
               </span>
-              <span>Hotline: 0987 219 933</span>
+              <span>Hotline: 098 401 4746</span>
             </div>
 
             <div className='footer-info__item'>

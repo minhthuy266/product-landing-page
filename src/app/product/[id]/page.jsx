@@ -1,16 +1,16 @@
 "use client"
 
 import Image from "next/image"
-import producToi from "@/assets/images/Product_Toi.jpg"
-import producToi2 from "@/assets/images/Product_Toi-2.jpg"
-import productNuHoa from "@/assets/images/Product_NuHoa.jpg"
-import productNuHoa2 from "@/assets/images/Product_NuHoa-2.jpg"
-import productNuHoa3 from "@/assets/images/Product_NuHoa-3.jpg"
-import productNuHoa4 from "@/assets/images/Product_NuHoa-4.jpg"
-import productTuong from "@/assets/images/Product_Tuong.jpg"
-import productTuong2 from "@/assets/images/Product_Tuong-2.jpg"
-import productTuong3 from "@/assets/images/Product_Tuong-3.jpg"
-import productTuong4 from "@/assets/images/Product_Tuong-4.jpg"
+import producToi from "public/assets/images/Product_Toi.jpg"
+import producToi2 from "public/assets/images/Product_Toi-2.jpg"
+import productNuHoa from "public/assets/images/Product_NuHoa.jpg"
+import productNuHoa2 from "public/assets/images/Product_NuHoa-2.jpg"
+import productNuHoa3 from "public/assets/images/Product_NuHoa-3.jpg"
+import productNuHoa4 from "public/assets/images/Product_NuHoa-4.jpg"
+import productTuong from "public/assets/images/Product_Tuong.jpg"
+import productTuong2 from "public/assets/images/Product_Tuong-2.jpg"
+import productTuong3 from "public/assets/images/Product_Tuong-3.jpg"
+import productTuong4 from "public/assets/images/Product_Tuong-4.jpg"
 import "./styles.scss"
 import {useEffect, useState} from "react"
 
@@ -20,7 +20,7 @@ const ProductDetail = ({params}) => {
   const products = [
     {
       id: 1,
-      detail: "Hành Tỏi Tân Yên",
+      detail: "Hành Tỏi Liên Chung",
       price: "60.000đ",
       shortDesc: (
         <div>
