@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
 import "./styles.scss"
-import LogoImg from "public/assets/images/logo.png"
+import LogoImg from "public/assets/images/logo.jpg"
 import Link from "next/link"
 
 const Footer = () => {

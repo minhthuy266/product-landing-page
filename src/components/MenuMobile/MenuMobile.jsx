@@ -4,7 +4,7 @@ import { sidebarItems } from "@/constants/sidebar";
 import Link from "next/link";
 import "./styles.scss";
 import Image from "next/image";
-import LogoImg from 'public/assets/images/logo.png'
+import LogoImg from 'public/assets/images/logo.jpg'
 import { useEffect, useState } from "react";
 
 const MenuMobile = ({ open, setOpen }) => {
